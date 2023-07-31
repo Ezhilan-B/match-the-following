@@ -22,7 +22,7 @@ function Game1() {
 
   const [lastPage,setLastPage] = useState(false);
 
-  const apiEndpoint ='http://localhost:5000/api/';
+  const apiEndpoint = 'https://game-backend-1m6h.onrender.com/api/';
 
   // const handleSubmit =(e)=>{
 
@@ -198,7 +198,7 @@ function Game1() {
 
       console.log(res.data);
       sessionStorage.setItem('score',res.data.score);
-       window.location.href = "/match-the-following/scorePage";
+       window.location.href = "/scorePage";
 
      }).catch(err=>{
 

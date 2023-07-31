@@ -8,7 +8,7 @@ function Home() {
 
         e.preventDefault();
         sessionStorage.setItem('username',name.current.value);
-      window.location.href = "/match-the-following/home";
+      window.location.href = "/home";
 
     }
   return (

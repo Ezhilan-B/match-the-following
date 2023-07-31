@@ -198,7 +198,7 @@ function Game1() {
 
       console.log(res.data);
       sessionStorage.setItem('score',res.data.score);
-      window.location.href="/scorePage";
+       window.location.href = "/match-the-following/scorePage";
 
      }).catch(err=>{
 

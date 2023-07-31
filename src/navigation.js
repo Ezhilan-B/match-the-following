@@ -10,7 +10,7 @@ function Navigation() {
       <nav>
       <ul className='unordered-list'>
         <li className='list'>
-          <Link to="/game1">Game 1</Link>
+              <Link to="/match-the-following/game1">Game 1</Link>
         </li>
         {/* Add other navigation items if needed */}
       </ul>

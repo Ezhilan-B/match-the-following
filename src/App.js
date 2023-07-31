@@ -10,16 +10,17 @@ function App() {
   return (
     <Router>
       <Routes>
-      <Route path="/game1" element={<Game1/>}> 
+        <Route path="/match-the-following/game1" element={<Game1 />}> 
         </Route>
-        <Route path="/player" element={<Home />}>
+        <Route path="/match-the-following" element={<Home />}>
         </Route>
-        <Route path="/home" element={<Navigation />}>
+        <Route path="/match-the-following/home" element={<Navigation />}>
         </Route>
-        <Route path="/scorepage" element={<ScorePage />}>
+        <Route path="/match-the-following/scorepage" element={<ScorePage />}>
         </Route>
       </Routes>
     </Router>
+
   );
 }
 
